@@ -7,3 +7,40 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul>li{
+    padding: 1rem;
+}
+
+li#logo-dropbox{
+    height: 50px;
+}
+
+img{
+    height: 100%;
+}
+
+
+
+section.jumbotron{
+    background-color: #9acfe9;
+}
