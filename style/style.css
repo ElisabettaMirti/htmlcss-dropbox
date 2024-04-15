@@ -5,14 +5,14 @@
 }
 
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;    
 }
 
 /* HEADER */
 
 header{
-    width: 100vw;
-    font-size: .8rem;
+    max-width: 100vw;
+    font-size: .6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,19 +28,70 @@ header ul{
 }
 
 header ul>li{
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 li#logo-dropbox{
     height: 50px;
+    padding: 1rem;
 }
 
 img{
     height: 100%;
 }
 
+.button{
+    padding: 0.4rem 0.8rem;
+    border: none;
+    font-size: .6rem;
+}
+
+.bg-blue{
+    background-color: #0060ff;
+    color: white;
+}
+
 /* JUMBOTRON */
 
 section.jumbotron{
-    background-color: #9acfe9;
+    background-color: #b4d0e7;    
+    padding: 2rem 17rem 1rem;
+}
+
+.jumbotron-main{
+    display: flex;
+    position: relative;
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    padding-bottom: 2rem;
+    font-weight: 900;
+}
+
+.jumbotron-text{
+    width: 30%;
+    font-size: .6rem;
+    line-height: .9rem;
+}
+
+.jumbotron-text>p,
+.jumbotron-text>button{
+    padding-bottom: 1.7rem;
+}
+
+#arrow-down{
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.jumbotron-img{
+    width: 80%;
+    position: absolute;
+    left: 280px;
+}
+
+.jumbotron-img>img{
+    width: 100%;
 }
