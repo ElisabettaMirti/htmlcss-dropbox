@@ -43,7 +43,7 @@ img{
 .button{
     padding: 0.4rem 0.8rem;
     border: none;
-    font-size: .6rem;
+    font-size: .65rem;
 }
 
 .bg-blue{
@@ -71,7 +71,7 @@ section.jumbotron{
 
 .jumbotron-text{
     width: 30%;
-    font-size: .6rem;
+    font-size: .65rem;
     line-height: .9rem;
 }
 
@@ -94,4 +94,52 @@ section.jumbotron{
 
 .jumbotron-img>img{
     width: 100%;
+}
+
+/* MAIN */
+
+.slim{
+    padding: 3rem 20rem;
+}
+
+.plans{
+    margin-top: 3rem;
+}
+
+div.radio-button{
+    padding: 2rem 0;
+}
+
+div.radio-button>*{
+    font-size: .6rem;
+    vertical-align: middle;  
+}
+
+div.radio-button label{
+    margin-right: 1.2rem;
+}
+
+.plans-info{    
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card{
+    /* width: calc((100 / 3) - 1rem); */
+    border: 1px #e0e0e1 solid;
+    font-size: .6rem;
+    padding: 0.5rem 1rem;    
+}
+
+.plan-type{
+    display: flex;
+    text-align: center;
+    border-bottom: 1px #e0e0e1 solid;
+    margin: 0.5rem 1rem;
+    padding: 0;
+}
+
+.plan-card>h3{
+    font-size: 1rem;
+    font-weight: bolder;
 }
