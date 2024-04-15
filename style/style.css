@@ -125,7 +125,7 @@ div.radio-button label{
 }
 
 .plan-card{
-    /* width: calc((100 / 3) - 1rem); */
+    width: calc((100% / 3) - 1rem);
     border: 1px #e0e0e1 solid;
     font-size: .6rem;
     padding: 0.5rem 1rem;    
@@ -133,13 +133,14 @@ div.radio-button label{
 
 .plan-type{
     display: flex;
-    text-align: center;
+    justify-content: center;
     border-bottom: 1px #e0e0e1 solid;
     margin: 0.5rem 1rem;
     padding: 0;
 }
 
-.plan-card>h3{
+
+.plan-type-info>h3{
     font-size: 1rem;
     font-weight: bolder;
 }
