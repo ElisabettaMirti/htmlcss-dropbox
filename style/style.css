@@ -41,7 +41,7 @@ img{
 }
 
 .button{
-    padding: 0.4rem 0.8rem;
+    padding: 0.5rem 0.8rem;
     border: none;
     font-size: .65rem;
 }
@@ -121,6 +121,7 @@ div.radio-button label{
 
 .plans-info{    
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
 }
@@ -199,4 +200,34 @@ div.text-center{
 .best i{
     color: #0060ff;
     margin-right: .2rem;
+}
+
+.plan-card.big-card{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: .8rem;
+}
+
+.big-card>.plan-type{
+    width: 100%;
+}
+
+.big-card>.plan-type-info{
+    width: 70%;
+    padding: 0.5rem 0 0.5rem 1.18rem;
+}
+
+.plan-card.big-card .plan-price{
+    margin-bottom: 1.5rem;
+}
+
+.big-card .btn-big-card{
+    padding: 1.4rem 1.4rem 0 0;
+}
+
+.big-card button{
+    padding: 0.5rem 1.6rem;
 }
