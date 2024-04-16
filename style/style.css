@@ -128,7 +128,8 @@ div.radio-button label{
 .plan-card{
     width: calc((100% / 3) - 1.3rem);
     border: 1px #e0e0e1 solid;
-    font-size: .6rem;    
+    font-size: .6rem;
+    padding-bottom: 1rem;    
 }
 
 .plan-type{
@@ -169,6 +170,33 @@ div.share{
     padding-bottom: .7rem;
 }
 
-.plan-type-info>button{
+.plan-type-info button{
     margin: 1.8rem 0;
+    width: 100%;
+}
+
+div.text-center{
+    text-align: center;
+}
+
+.plan-card .line{
+    max-width: 2.5rem;
+    border-top: 1px #e0e0e1 solid;
+    margin: 1.7rem 0 2.2rem;
+}
+
+.best>h5{
+    font-size: 0.6rem;
+    padding-bottom: 1.5rem;
+}
+
+.best li{
+    display: flex;
+    align-items: first baseline;
+    margin-bottom: .8rem;
+}
+
+.best i{
+    color: #0060ff;
+    margin-right: .2rem;
 }
