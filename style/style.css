@@ -98,6 +98,10 @@ section.jumbotron{
 
 /* MAIN */
 
+h2{
+    font-size: 1.7rem;
+}
+
 .slim{
     padding: 3rem 20rem;
 }
@@ -266,4 +270,32 @@ section.partners p{
     background-color: white;
     border: 1px solid black;
     margin-top: 1.2rem;
+}
+
+
+/* SECTION AD-OPTIONS */
+
+.ad-options>div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ad-options div.container>article{
+    width: calc((100% / 3) - 1.2rem);
+    margin-bottom: 2rem;
+}
+
+.ad-options-img>img{
+    width: 100%;
+}
+
+.ad-options-info>h3{
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.ad-options-info>p{
+    font-size: 0.67rem;
 }
