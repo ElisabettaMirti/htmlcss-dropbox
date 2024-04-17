@@ -420,3 +420,34 @@ button#free-trial{
     background-color: white;
     padding: .5rem 2rem;
 }
+
+/* SECTION FAQ */
+
+section.faq>h2{
+    margin-top: 3.6rem;
+    margin-bottom: 2.5rem;
+}
+
+section.faq>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #bfbfbf;    
+}
+
+section.faq>div:last-child{
+    border-bottom: 1px solid #bfbfbf;
+}
+
+section.faq p{
+    font-size: .7rem;
+    font-weight: 700;    
+    padding: 1.7rem 0;
+}
+
+section.faq span{
+    font-size: .4rem;
+    padding-right: 2rem;
+}
+
